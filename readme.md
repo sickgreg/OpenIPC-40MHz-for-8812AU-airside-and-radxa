@@ -6,4 +6,4 @@ Also update /etc/wfb.conf to bandwidth=40
 
 (I have only tried channel 161)
 
-On ground station, 40MHz also needs to be set by unloading and reloading the wifi adapter driver.  I've created a shell script that does that.  ```./set40auto.sh 20```
+On ground station, 40MHz also needs to be set by unloading and reloading the wifi adapter driver.  I've created a shell script that does that.  ```./set40auto.sh 20``` to reload the driver with power level 20 and iterate through the wifi cards, setting them all to channel 161 @ 40MHz
