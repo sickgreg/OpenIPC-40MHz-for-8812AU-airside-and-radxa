@@ -1,6 +1,6 @@
 ***40MHz channels for 8812AU cards***
 
-If anyone wants to try 40MHz channels they can replace their `/usr/bin/wifibroadcast` script on their openIPC camera with this one (rename it to `wifibroadcast` after copying it to cam. I named it that way so i know what it is), which will set the adapter to 40MHz upon loading the driver.  It's a bit of a hack.  Just restore the old file to go back.
+If anyone wants to try 40MHz channels they can replace their `/usr/bin/wifibroadcast` script on their openIPC camera with this one (rename it to `wifibroadcast` after copying it to cam and make it executable. I named it that way so i know what it is), which will set the adapter to 40MHz upon loading the driver.  It's a bit of a hack.  Just restore the old file to go back.
 
 Also change `/etc/wfb.conf` to include bandwidth=40
 
